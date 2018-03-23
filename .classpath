@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry output="bin/main" kind="src" path="src/main/java">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry output="bin/main" kind="src" path="src/main/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/joda-time/joda-time/2.2/ad622e3cfe39319ea53b183aa5615f96ff346584/joda-time-2.2-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/joda-time/joda-time/2.2/a5f29a7acaddea3f4af307e8cf2d0cc82645fd7d/joda-time-2.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.0.0.RELEASE/spring-boot-starter-web-2.0.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-thymeleaf/2.0.0.RELEASE/f09f7bf7cac1f1519a424678978768ff2445095e/spring-boot-starter-thymeleaf-2.0.0.RELEASE-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-thymeleaf/2.0.0.RELEASE/3f77dc6b3bfa8e9cc9e0eaa9abc32c5b00b5046a/spring-boot-starter-thymeleaf-2.0.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-jpa/2.0.0.RELEASE/219c6826fbcf3968ed82caabff34d2717309e28/spring-boot-starter-data-jpa-2.0.0.RELEASE-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-jpa/2.0.0.RELEASE/cc7bc2df046149870255d22367f8f7276eb82e98/spring-boot-starter-data-jpa-2.0.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/2.0.0.RELEASE/ee4c460d663bb33d1e2f460ff3a7584240545914/spring-boot-starter-actuator-2.0.0.RELEASE-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/2.0.0.RELEASE/22d7f64be5452ddad3fd0d651c818de658a18f3e/spring-boot-starter-actuator-2.0.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/2.0.0.RELEASE/4cbefecb21cd3e8aa3b02b19a1781fa8f3b5505a/spring-boot-devtools-2.0.0.RELEASE-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/2.0.0.RELEASE/db0a05542d0d59b55cdee8767cb2ec41cf49e4a6/spring-boot-devtools-2.0.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.projectlombok/lombok/1.16.20/69ebf81bb97bdb3c9581c171762bb4929cb5289c/lombok-1.16.20-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.projectlombok/lombok/1.16.20/ac76d9b956045631d1561a09289cbf472e077c01/lombok-1.16.20.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/com.alibaba/druid/1.1.8/1b0e1d76b692eb2a7f1b68a04769051240713400/druid-1.1.8-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/com.alibaba/druid/1.1.8/6cbde0a3f377eabbb596d167347b5487180e6753/druid-1.1.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.38/b83cac8c938dfb9b7a8e191e2d482be88eb8280c/mysql-connector-java-5.1.38-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.38/dbbd7cd309ce167ec8367de4e41c63c2c8593cc5/mysql-connector-java-5.1.38.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.apache.shiro/shiro-ehcache/1.3.1/70b8a5430002c203d897ef8e4120a33ec44ac13b/shiro-ehcache-1.3.1-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.apache.shiro/shiro-ehcache/1.3.1/842937ce5d2fcc6e1e1be560093f5a7bdb286f44/shiro-ehcache-1.3.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.apache.shiro/shiro-spring/1.3.1/ddc99034021af9219fade82868957f38ade9c47a/shiro-spring-1.3.1-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.apache.shiro/shiro-spring/1.3.1/35f66fdfca00e5d482e18a3edcbd3214dce31de5/shiro-spring-1.3.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.1/69c80b981a861f5b2b2dc927df25816457ae9e4c/shiro-web-1.3.1-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.apache.shiro/shiro-web/1.3.1/e9725d32764f3a8da0d1f0be9d7d29b0f0cf9fa9/shiro-web-1.3.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.apache.shiro/shiro-quartz/1.3.1/114ad8a1567ca7af955b8657ef64a2300e74e563/shiro-quartz-1.3.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.1/99a075ecee05c72980e89c50a70deb1e1b5db8e7/shiro-core-1.3.1-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.3.1/7edd30cd5b1b3293a40256b40b05bd8b8cbaa2df/shiro-core-1.3.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/net/sf/ehcache/ehcache/2.10.4/ehcache-2.10.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/.m2/repository/net/sf/ehcache/ehcache-web/2.0.4/ehcache-web-2.0.4-sources.jar" kind="lib" path="/home/uncle/.m2/repository/net/sf/ehcache/ehcache-web/2.0.4/ehcache-web-2.0.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/baf95d8519fc1a11d388f8543cb40cd2bb9d66dc/gson-2.8.0-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.0.0.RELEASE/spring-boot-starter-json-2.0.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-aop/2.0.0.RELEASE/55cf99fc43d05c131a39c8cc54ba10e283ff506b/spring-boot-starter-aop-2.0.0.RELEASE-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-aop/2.0.0.RELEASE/9afd572ca8de272e6d919d914db5c73cd7d06ea2/spring-boot-starter-aop-2.0.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jdbc/2.0.0.RELEASE/c1bb7a40f3586c06d0e81360f665cef92f1e2248/spring-boot-starter-jdbc-2.0.0.RELEASE-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jdbc/2.0.0.RELEASE/bfe586f729ed86a421a79ac1b18d4e05acd25d68/spring-boot-starter-jdbc-2.0.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/springframework/boot/spring-boot-starter/2.0.0.RELEASE/spring-boot-starter-2.0.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.0.0.RELEASE/spring-boot-starter-tomcat-2.0.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/hibernate/validator/hibernate-validator/6.0.7.Final/hibernate-validator-6.0.7.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/springframework/spring-webmvc/5.0.4.RELEASE/spring-webmvc-5.0.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf-spring5/3.0.9.RELEASE/c13a0d99aad3e1a814c2645f847f49c02f622a93/thymeleaf-spring5-3.0.9.RELEASE-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf-spring5/3.0.9.RELEASE/abf84efd83808a70d982d2790f7f3a7bd3a39cf4/thymeleaf-spring5-3.0.9.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.thymeleaf.extras/thymeleaf-extras-java8time/3.0.1.RELEASE/c50e1955467c3c3ab3cbf08f96398289023d5809/thymeleaf-extras-java8time-3.0.1.RELEASE-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.thymeleaf.extras/thymeleaf-extras-java8time/3.0.1.RELEASE/d23760d1e53cd70c489ef40dc94ee6bd2371cceb/thymeleaf-extras-java8time-3.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.2.14.Final/4dcca86922d897874faf14a10c83b385000364b4/hibernate-core-5.2.14.Final-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.2.14.Final/2132ad4a9fa5088156469ec85306afe574bb8c24/hibernate-core-5.2.14.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/javax.transaction/javax.transaction-api/1.2/5d1fb3fe056fe51e6f6ed9b4ef4898a774ed69c0/javax.transaction-api-1.2-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/javax.transaction/javax.transaction-api/1.2/d81aff979d603edd90dcd8db2abc1f4ce6479e3e/javax.transaction-api-1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/2.0.5.RELEASE/8380157b984eee5852240c8d9a45f72f1fc45f39/spring-data-jpa-2.0.5.RELEASE-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/2.0.5.RELEASE/51b2e315174e32b4c8a4841a147002555add076c/spring-data-jpa-2.0.5.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework/spring-aspects/5.0.4.RELEASE/15f33e1f7b05e9e638ce2f02201baa60780bc4dc/spring-aspects-5.0.4.RELEASE-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework/spring-aspects/5.0.4.RELEASE/454ee13fc4f439065572dd526e81c699d1d61e3e/spring-aspects-5.0.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator-autoconfigure/2.0.0.RELEASE/ab17c516c9562dc5287ad38c4c54cff92036f7f4/spring-boot-actuator-autoconfigure-2.0.0.RELEASE-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator-autoconfigure/2.0.0.RELEASE/ffaa094aef881dbb30621f6f042dcfec125ffe9/spring-boot-actuator-autoconfigure-2.0.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/io.micrometer/micrometer-core/1.0.1/3c80ec0d65b3c30bad1e152462c9068e05f9e0b0/micrometer-core-1.0.1-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/io.micrometer/micrometer-core/1.0.1/698281b5829a16ddea19f3a5d4414d7ece1d3f11/micrometer-core-1.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/2.0.0.RELEASE/748e2bdb02199b5f1078104ec5fb227225772472/spring-boot-actuator-2.0.0.RELEASE-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/2.0.0.RELEASE/309a5d45b09e361d29c9e7d1def644d70a50173b/spring-boot-actuator-2.0.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/springframework/boot/spring-boot/2.0.0.RELEASE/spring-boot-2.0.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf/3.0.9.RELEASE/6cfc266b7f4141fb53b86acfc03d65312f7c0b92/thymeleaf-3.0.9.RELEASE-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf/3.0.9.RELEASE/64185cca50ac808ad034841c84b4013f955465d2/thymeleaf-3.0.9.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/com.zaxxer/HikariCP/2.7.8/3af026022f2793a8362a9379aa0d79337dd07bc0/HikariCP-2.7.8-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/com.zaxxer/HikariCP/2.7.8/4a3a604fa2efa89621aa498d04e000b2bed90c39/HikariCP-2.7.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/2.0.5.RELEASE/2c72fbd7c2ebf225821fc9da0baab1f142010372/spring-data-commons-2.0.5.RELEASE-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/2.0.5.RELEASE/f5357c650f63f3a187d3d4086a9e9132f33851a6/spring-data-commons-2.0.5.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.0.0.RELEASE/spring-boot-starter-logging-2.0.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.10.0/log4j-to-slf4j-2.10.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/net.sf.ehcache/ehcache-core/2.5.3/eb7534ad65018fd132645853d88de8ffb50d0aa4/ehcache-core-2.5.3-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/net.sf.ehcache/ehcache-core/2.5.3/926360ebc99afd1c972e20c7176ff1b031b47b48/ehcache-core-2.5.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.3/170d03db4cb48be2f8f35ce3243d62c4b2204e2e/commons-beanutils-1.8.3-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.3/686ef3410bcf4ab8ce7fd0b899e832aaba5facf7/commons-beanutils-1.8.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.opensymphony.quartz/quartz/1.6.1/41c8f042d49c65a5889e3fd8b9598e7cfca02c5e/quartz-1.6.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/springframework/spring-context/5.0.4.RELEASE/spring-context-5.0.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/springframework/spring-aop/5.0.4.RELEASE/spring-aop-5.0.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework/spring-orm/5.0.4.RELEASE/3302f34b8ce8e685a48eb8bbb3dd093fb03e2590/spring-orm-5.0.4.RELEASE-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework/spring-orm/5.0.4.RELEASE/dc83e08ecdb4ab28339f87358b53d75b4a8d1b9/spring-orm-5.0.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework/spring-jdbc/5.0.4.RELEASE/4c69a0b0279f2d75e386ec018ca8b731d30dcf90/spring-jdbc-5.0.4.RELEASE-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework/spring-jdbc/5.0.4.RELEASE/6b5ac0db11d81d6319ebd0bb253b2f01713df3ab/spring-jdbc-5.0.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework/spring-tx/5.0.4.RELEASE/45a01e8f652600f37a5535f96278be07422b47b4/spring-tx-5.0.4.RELEASE-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework/spring-tx/5.0.4.RELEASE/7afc193c5d2b812ee6d2ccaf6fcc81fb83bfb4a7/spring-tx-5.0.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/springframework/spring-expression/5.0.4.RELEASE/spring-expression-5.0.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.4/jackson-datatype-jdk8-2.9.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.4/jackson-datatype-jsr310-2.9.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.4/jackson-module-parameter-names-2.9.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.28/tomcat-embed-websocket-8.5.28.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.28/tomcat-embed-core-8.5.28.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.5.28/tomcat-embed-el-8.5.28.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/5.0.1.Final/203038e420aaa3fa6df8bad4fda19ca1e2824005/hibernate-commons-annotations-5.0.1.Final-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/5.0.1.Final/71e1cff3fcb20d3b3af4f3363c3ddb24d33c6879/hibernate-commons-annotations-5.0.1.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.13/4bba65cfdaa38e16e40ab5134651ac751e384c5f/aspectjweaver-1.8.13-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.13/ad94df2a28d658a40dc27bbaff6a1ce5fbf04e9b/aspectjweaver-1.8.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.javassist/javassist/3.22.0-GA/810a2710a0792d017d755f701b5961cc33866c02/javassist-3.22.0-GA-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.javassist/javassist/3.22.0-GA/3e83394258ae2089be7219b971ec21a8288528ad/javassist-3.22.0-GA.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.jboss/jandex/2.0.3.Final/edc4552ad816df11579a8e02e19f778c77a915b5/jandex-2.0.3.Final-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.jboss/jandex/2.0.3.Final/bfc4d6257dbff7a33a357f0de116be6ff951d849/jandex-2.0.3.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.hdrhistogram/HdrHistogram/2.1.10/411ca1d8f3f3037e19dcf5350807b0b74350ca33/HdrHistogram-2.1.10-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.hdrhistogram/HdrHistogram/2.1.10/9e1ac84eed220281841b75e72fb9de5a297fbf04/HdrHistogram-2.1.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.latencyutils/LatencyUtils/2.0.3/fbc38259e2077a428984637d811dac542a6a913e/LatencyUtils-2.0.3-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.latencyutils/LatencyUtils/2.0.3/769c0b82cb2421c8256300e907298a9410a2a3d3/LatencyUtils-2.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/springframework/spring-jcl/5.0.4.RELEASE/spring-jcl-5.0.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.4/jackson-core-2.9.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.attoparser/attoparser/2.0.4.RELEASE/1a0afd7dce6a89759ab0d7d5d7606f8f48a250ac/attoparser-2.0.4.RELEASE-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.attoparser/attoparser/2.0.4.RELEASE/5cf02c4d8303a81f0c80971bb1dcd40d3ba96009/attoparser-2.0.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.unbescape/unbescape/1.1.5.RELEASE/9fa014fbd70a807f983c3445a84786d9eaca1625/unbescape-1.1.5.RELEASE-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.unbescape/unbescape/1.1.5.RELEASE/46dc644ea9c234317d926ebac5bf5d8f114dc1ba/unbescape-1.1.5.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/2.0.0.RELEASE/931eb601cc7fc20d94e8e7130b39fabcfc09eda4/spring-boot-starter-test-2.0.0.RELEASE-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/2.0.0.RELEASE/4ff0e1d9bd315a4a5867e9c6128691cac8b37348/spring-boot-starter-test-2.0.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/2.0.0.RELEASE/962526b37b2d05d19da248fc0cb12719819335b/spring-boot-test-autoconfigure-2.0.0.RELEASE-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/2.0.0.RELEASE/db0595321e96929d9473cf061f3408972d03c6aa/spring-boot-test-autoconfigure-2.0.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/2.0.0.RELEASE/89c328c42726ede8d8dbef8a0554adff7baa5acb/spring-boot-test-2.0.0.RELEASE-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/2.0.0.RELEASE/1565e78c2801bd3c7ece0a8ddc08e5ed53676878/spring-boot-test-2.0.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.4.0/c43fc506196089da87a7bb36ec847b57072a818b/json-path-2.4.0-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.4.0/765a4401ceb2dc8d40553c2075eb80a8fa35c2ae/json-path-2.4.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/junit/junit/4.12/junit-4.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.assertj/assertj-core/3.9.1/ff4bb4ed665db8ba2d5fb9a3bf84aed3f5d25d00/assertj-core-3.9.1-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.assertj/assertj-core/3.9.1/c5ce126b15f28d56cd8f960c1a6a058b9c9aea87/assertj-core-3.9.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.mockito/mockito-core/2.15.0/46e8ee5e6fdfaee85be74093e324d53c881e0567/mockito-core-2.15.0-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.mockito/mockito-core/2.15.0/b84bfbbc29cd22c9529409627af6ea2897f4fa85/mockito-core-2.15.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.5.0/d729b258165a2fd9b5d6156c05c4c4f7ca053117/jsonassert-1.5.0-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.5.0/6c9d5fe2f59da598d9aefc1cfc6528ff3cf32df3/jsonassert-1.5.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework/spring-test/5.0.4.RELEASE/d7bbe496c15aaf2994ad835ba7f8d49727dc2f0d/spring-test-5.0.4.RELEASE-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.springframework/spring-test/5.0.4.RELEASE/3fc10b6535a113593fa8780951465012a7677e21/spring-test-5.0.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.xmlunit/xmlunit-core/2.5.1/3a18fafaf3081b8f76dcc75fc9419c340722762a/xmlunit-core-2.5.1-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.xmlunit/xmlunit-core/2.5.1/4ffdb346572a7356f7521cd3119ce5287d2e339d/xmlunit-core-2.5.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.7.10/b4425d1ca679fac11b18e1585331285b732dc2dc/byte-buddy-1.7.10-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.7.10/3c8ec287c0a5bd04b1e3f11723bc46a50346602b/byte-buddy-1.7.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.7.10/5f21563c3e9deadfa47d22b769395ec581a1b13/byte-buddy-agent-1.7.10-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.7.10/9b092a8fb9112b89f6cb23fc929cfb931b14007b/byte-buddy-agent-1.7.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.objenesis/objenesis/2.6/96614f514a1031296657bf0dde452dc15e42fcb8/objenesis-2.6-sources.jar" kind="lib" path="/home/uncle/workspace/GradleSpringBootJpa/home/uncle/gradle_repo/caches/modules-2/files-2.1/org.objenesis/objenesis/2.6/639033469776fd37c08358c6b92a4761feb2af4b/objenesis-2.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/uncle/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+</classpath>

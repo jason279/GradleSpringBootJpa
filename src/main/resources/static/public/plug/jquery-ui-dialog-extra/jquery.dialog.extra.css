@@ -1,0 +1,116 @@
+/*最小化*/
+.ui-dialog .ui-dialog-titlebar-min {
+    position: absolute;
+    right: .3em;
+    top: 60%;/*＠update调整位置*/
+    width: 19px;
+    margin: -20px 0 0 0;
+    padding: 1px;
+    height: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 13.5px;
+    text-shadow: 0 1px 0 #ffffff;
+    filter:alpha(opacity=25);
+    -khtml-opacity: 0.25;
+    -moz-opacity: 0.25;
+    opacity: 0.25;
+    background: none;
+    border-width: 0;
+    border: none;
+    -webkit-box-shadow: none; /* Safari 4 */
+    -moz-box-shadow: none; /* Firefox 3.6 */
+    box-shadow: none;
+}
+
+.ui-dialog .ui-dialog-titlebar-min span {
+    display: block;
+    margin: 1px;
+    text-indent: 9999px;
+}
+
+.ui-dialog .ui-dialog-titlebar-min:hover,
+.ui-dialog .ui-dialog-titlebar-min:focus {
+    padding: 1px;
+    filter:alpha(opacity=90);
+    -moz-opacity: 0.90;
+    opacity: 0.90;
+}
+
+/*最大化*/
+.ui-dialog .ui-dialog-titlebar-max {
+    position: absolute;
+    right: .3em;
+    top: 60%;/*＠update调整位置*/
+    width: 19px;
+    margin: -20px 0 0 0;
+    padding: 1px;
+    height: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 13.5px;
+    text-shadow: 0 1px 0 #ffffff;
+    filter:alpha(opacity=25);
+    -khtml-opacity: 0.25;
+    -moz-opacity: 0.25;
+    opacity: 0.25;
+    background: none;
+    border-width: 0;
+    border: none;
+    -webkit-box-shadow: none; /* Safari 4 */
+    -moz-box-shadow: none; /* Firefox 3.6 */
+    box-shadow: none;
+}
+
+.ui-dialog .ui-dialog-titlebar-max span {
+    display: block;
+    margin: 1px;
+    text-indent: 9999px;
+}
+
+.ui-dialog .ui-dialog-titlebar-max:hover,
+.ui-dialog .ui-dialog-titlebar-max:focus {
+    padding: 1px;
+    filter:alpha(opacity=90);
+    -moz-opacity: 0.90;
+    opacity: 0.90;
+}
+
+/*还原*/
+.ui-dialog .ui-dialog-titlebar-rest {
+    position: absolute;
+    right: .3em;
+    top: 60%;/*＠update调整位置*/
+    width: 19px;
+    margin: -20px 0 0 0;
+    padding: 1px;
+    height: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 13.5px;
+    text-shadow: 0 1px 0 #ffffff;
+    filter:alpha(opacity=25);
+    -khtml-opacity: 0.25;
+    -moz-opacity: 0.25;
+    opacity: 0.25;
+    background: none;
+    border-width: 0;
+    border: none;
+    -webkit-box-shadow: none; /* Safari 4 */
+    -moz-box-shadow: none; /* Firefox 3.6 */
+    box-shadow: none;
+}
+
+.ui-dialog .ui-dialog-titlebar-rest span {
+    display: block;
+    margin: 1px;
+    text-indent: 9999px;
+}
+
+.ui-dialog .ui-dialog-titlebar-rest:hover,
+.ui-dialog .ui-dialog-titlebar-rest:focus {
+    padding: 1px;
+    filter:alpha(opacity=90);
+    -moz-opacity: 0.90;
+    opacity: 0.90;
+}

@@ -1,0 +1,25 @@
+[
+ {
+	 "id":1130,
+	 "pId":0,
+	 "sort":0,
+	 "checked":true,
+	 "name":"焦点设置",
+	 "value":"focus_html",
+	 "iconClass":"icon-hand-right",
+	 "ismenu":1,
+	 "url":"permission_html"
+ },
+ {"id":1069,"pId":0,"sort":1,"checked":true,"name":"信息发布",
+	 "value":"role_html","iconClass":"icon-hand-right","ismenu":1,"url":"role_html"},
+ {"id":1089,"pId":0,"sort":2,"checked":true,"name":"基金管理",
+		 "value":"user_html","iconClass":"icon-hand-right","ismenu":1,"url":"user_html"},
+ {"id":1129,"pId":0,"sort":3,"checked":true,"name":"广告设置","value":"advertSet_html","iconClass":"icon-hand-right","ismenu":1,"url":"advertSet_html"},
+ {"id":70,"pId":0,"sort":4,"checked":true,"name":"用户管理","value":"authorisedUser_html","iconClass":"icon-user","ismenu":1,"url":"authorisedUser_html"},
+ {"id":1029,"pId":0,"sort":5,"checked":true,"name":"角色管理","value":"securityRole_html","iconClass":"icon-hand-right","ismenu":1,"url":"securityRole_html"},
+ {"id":131,"pId":0,"sort":6,"checked":false,"name":"系统设置","value":"","iconClass":"icon-desktop","ismenu":1,"url":""},
+ {"id":111,"pId":131,"sort":7,"checked":false,"name":"菜单权限","value":"userPermission_html","iconClass":"icon-hand-right","ismenu":1,"url":"userPermission_html"},
+ {"id":1049,"pId":131,"sort":8,"checked":false,"name":"信息类型","value":"infoType_html","iconClass":"icon-hand-right","ismenu":1,"url":"infoType_html"},
+ {"id":1090,"pId":131,"sort":9,"checked":false,"name":"基金类型","value":"fundType_html","iconClass":"icon-hand-right","ismenu":1,"url":"fundType_html"},
+ {"id":1109,"pId":131,"sort":10,"checked":false,"name":"广告类型","value":"advertType_html","iconClass":"icon-hand-right","ismenu":1,"url":"advertType_html"}
+]
