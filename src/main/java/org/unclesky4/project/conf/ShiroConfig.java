@@ -3,6 +3,7 @@ package org.unclesky4.project.conf;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+import org.apache.shiro.cache.MemoryConstrainedCacheManager;
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
@@ -122,6 +123,7 @@ public class ShiroConfig {
     public SecurityManager securityManager(){  
        DefaultWebSecurityManager securityManager =  new DefaultWebSecurityManager();
        securityManager.setRealm(myShiroRealm());
+       securityManager.setCacheManager(new MemoryConstrainedCacheManager());
        return securityManager;  
     }
 }

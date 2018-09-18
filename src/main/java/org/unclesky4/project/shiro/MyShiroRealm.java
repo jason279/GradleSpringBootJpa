@@ -2,6 +2,7 @@ package org.unclesky4.project.shiro;
 
 import java.util.List;
 
+import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -9,8 +10,11 @@ import org.apache.shiro.authc.SimpleAuthenticationInfo;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
+import org.apache.shiro.mgt.RealmSecurityManager;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.unclesky4.project.entity.Permission;
 import org.unclesky4.project.entity.Role;
@@ -33,6 +37,8 @@ import org.unclesky4.project.service.UserService;
  *
  */
 public class MyShiroRealm extends AuthorizingRealm{
+	
+	private static Logger logger = LoggerFactory.getLogger(MyShiroRealm.class);
 
 	//用于用户查询
 	@Autowired
@@ -87,6 +93,21 @@ public class MyShiroRealm extends AuthorizingRealm{
     	//放入shiro.调用CredentialsMatcher检验密码
         SimpleAuthenticationInfo simpleAuthenticationInfo = new SimpleAuthenticationInfo(username, user.getPassword(), getName());
         return simpleAuthenticationInfo;
+	}
+	
+	public void clearAuthz(){
+		this.clearCachedAuthorizationInfo(SecurityUtils.getSubject().getPrincipals());
+	}
+	
+	/**
+	 * shiro刷新权限
+	 */
+	public static void reloadAuthorizing() {
+        logger.info("权限刷新成功");
+        
+		RealmSecurityManager rsm = (RealmSecurityManager)SecurityUtils.getSecurityManager();
+		MyShiroRealm realm = (MyShiroRealm)rsm.getRealms().iterator().next();
+		realm.clearAuthz();
 	}
 
 }

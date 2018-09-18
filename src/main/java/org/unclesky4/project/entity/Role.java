@@ -17,10 +17,10 @@ public class Role {
 	@GeneratedValue(strategy=GenerationType.SEQUENCE)
 	private Long id;
 	
-	@Column(name="roleName", nullable=false, length=20)
+	@Column(nullable=false, length=20)
 	private String roleName;
 	
-	@Column(name="roleName", nullable=false, length=1)
+	@Column(nullable=false, length=1)
 	private Integer sort = 0;
 	
 	@OneToOne
